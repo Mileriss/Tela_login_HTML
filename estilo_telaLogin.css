@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Bombing';
+    src: url(./Fontes/Bombing.ttf);
+}
+
+@font-face {
+    font-family: 'Graffiti_City';
+    src: url(./Fontes/Graffiti_City.otf);
+}
+
+@font-face {
+    font-family: 'Dripping';
+    src: url(./Fontes/Dripping.ttf);
+}
+
+body{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#titulo-principal{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Bombing';
+    
+}
+
+#fieldset-principal{
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: grey;
+    border-style:outset;
+    margin: auto;
+    width: 250px;
+}
+
+.labels{
+    font-family: 'Graffiti_City';
+    font-size: 30px;
+    text-align: center;
+}
+
+.labels:hover{
+    background-color: aqua;
+}
+
+.inputs{
+    font-family: 'Bombing';
+    font-size: 30px;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+.buttons{
+    font-family: 'Graffiti_City';
+    font-size: 20px;
+    text-align: center;
+}
+
+.buttons:hover{
+    border-width: 3px;
+    border-color: red;
+}
