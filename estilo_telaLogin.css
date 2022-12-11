@@ -14,35 +14,36 @@
 }
 
 body{
-    background-image: url();
+    background-image: url(/Imagens/bg_mileriss.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    color: white;
 }
 
-#titulo-principal{
+legend{
     text-align: center;
-    font-size: 100px;
-    font-family: 'Bombing';
-    
+    font-size: 50px;
+    font-family: 'Dripping';
+    color: white;
+    -webkit-text-stroke: 1px lightsteelblue;
+
 }
 
 #fieldset-principal{
     border-width: 5px;
     border-radius: 10px;
-    border-color: grey;
+    border-color: black;
     border-style:outset;
     margin: auto;
     width: 250px;
+    background-color: lightslategray;
+    margin-top: 10%;
 }
 
 .labels{
     font-family: 'Graffiti_City';
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-}
-
-.labels:hover{
-    background-color: aqua;
 }
 
 .inputs{
@@ -50,16 +51,21 @@ body{
     font-size: 30px;
     justify-content: center;
     border-radius: 5px;
-
 }
 
 .buttons{
     font-family: 'Graffiti_City';
     font-size: 20px;
     text-align: center;
+    margin-left: 3%;
 }
 
 .buttons:hover{
-    border-width: 3px;
+    border-width: 1px;
     border-color: red;
+    cursor:grab;
+}
+
+.buttons:active{
+    cursor: grabbing;
 }
